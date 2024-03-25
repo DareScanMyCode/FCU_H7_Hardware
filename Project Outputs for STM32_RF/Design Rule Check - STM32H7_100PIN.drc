@@ -1,0 +1,72 @@
+Protel Design System Design Rule Check
+PCB File : D:\filesBack\实验室设备\飞控资料\飞控代码\f4TOh7\FCU_STM32H743VI_100PIN_Gen2.5_2.21-ModifiedOverlays\STM32H7_100PIN.PcbDoc
+Date     : 2024/2/22
+Time     : 15:10:12
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+   Violation between Clearance Constraint: (14.499mil < 15mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad D0-3(390.91mil,1747.06mil) on Top Layer 
+   Violation between Clearance Constraint: (6.944mil < 15mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad USB0-1(2365.496mil,128.016mil) on Top Layer 
+   Violation between Clearance Constraint: (8.606mil < 15mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad USB0-11(2365.496mil,348.496mil) on Top Layer 
+   Violation between Clearance Constraint: (6.944mil < 15mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad USB0-12(2365.496mil,379.986mil) on Top Layer 
+   Violation between Clearance Constraint: (8.605mil < 15mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad USB0-2(2365.496mil,159.516mil) on Top Layer 
+   Violation between Clearance Constraint: (14.547mil < 15mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (2016mil,75mil)(2016mil,269mil) on Bottom Layer 
+Rule Violations :6
+
+Processing Rule : Clearance Constraint (Gap=0mil) (OnLayer('Keep-Out Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad Free-2(1000mil,-251mil) on Multi-Layer Location : [X = 2952.091mil][Y = 1624.93mil]
+   Violation between Short-Circuit Constraint: Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad Free-2(1000mil,-251mil) on Multi-Layer Location : [X = 2952.091mil][Y = 1624.93mil]
+   Violation between Short-Circuit Constraint: Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad Free-2(1315mil,-251mil) on Multi-Layer Location : [X = 3267.051mil][Y = 1624.93mil]
+   Violation between Short-Circuit Constraint: Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad Free-2(1315mil,-251mil) on Multi-Layer Location : [X = 3267.051mil][Y = 1624.93mil]
+   Violation between Short-Circuit Constraint: Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad Free-2(2407.5mil,140.35mil) on Multi-Layer Location : [X = 4359.624mil][Y = 2016.243mil]
+   Violation between Short-Circuit Constraint: Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad Free-2(2407.5mil,140.35mil) on Multi-Layer Location : [X = 4359.624mil][Y = 2016.243mil]
+   Violation between Short-Circuit Constraint: Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad Free-2(2407.75mil,367.75mil) on Multi-Layer Location : [X = 4359.625mil][Y = 2243.787mil]
+   Violation between Short-Circuit Constraint: Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Pad Free-2(2407.75mil,367.75mil) on Multi-Layer Location : [X = 4359.625mil][Y = 2243.787mil]
+Rule Violations :8
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=120mil) (Preferred=8mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=300mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (Collision < 10mil) Between Pad Free-2(1000mil,-251mil) on Multi-Layer And Pad Free-2(1000mil,-251mil) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 10mil) Between Pad Free-2(1315mil,-251mil) on Multi-Layer And Pad Free-2(1315mil,-251mil) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 10mil) Between Pad Free-2(2407.5mil,140.35mil) on Multi-Layer And Pad Free-2(2407.5mil,140.35mil) on Multi-Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 10mil) Between Pad Free-2(2407.75mil,367.75mil) on Multi-Layer And Pad Free-2(2407.75mil,367.75mil) on Multi-Layer Pad/Via Touching Holes
+Rule Violations :4
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Length Constraint (Min=0mil) (Max=1428.5mil) (InNetClass('SDIO'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 18
+Waived Violations : 0
+Time Elapsed        : 00:00:02
